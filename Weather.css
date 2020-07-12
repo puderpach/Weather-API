@@ -34,7 +34,7 @@ main {
 .images-row {
     width: 100%;
     height: 100%;
-    display:flex; 
+    display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -49,4 +49,52 @@ main {
     border: black 1px solid;
     width: 92%;
     height: 31%;
+    background-size: cover;
+    background-position: center;
 }
+
+.description {
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    display: inline;
+    background-color: rgb(211,211,211, 0.75);
+    display: block;
+}
+
+#Munich {
+    background-image: url("Images/Munich.jpg");
+}
+
+#Berlin {
+    background-image: url("Images/Berlin.jpg");
+}
+
+#Lisbon {
+    background-image: url("Images/Lisbon.jpeg");
+}
+
+#Melbourne {
+    background-image: url("Images/Melbourne.jpeg");
+}
+
+#Wenns {
+    background-image: url("Images/Wenns.jpg");
+}
+
+#Hochfügen {
+    background-image: url("Images/Hochfuegen.jpeg");
+}
+
+#Stubaier-Gletscher {
+    background-image: url("Images/Stubai.jpg");
+}
+
+#Moliets {
+    background-image: url("Images/Moliets.jpg");
+}
+
+#Innsbruck {
+    background-image: url("Images/Innsbruck.jpeg");
+}
+

@@ -16,36 +16,61 @@
             <div class=images>
                 <div class=images-row>
                     <div class=images-column>
-                        <div class=image id=Munich>
+                        <div class=image id=Munich onclick=weather(0)>
                             <div class=description>Munich, Germany</div>
                         </div>
-                        <div class=image id=Berlin>
+                        <div class=image id=Berlin onclick=weather(1)>
                             <div class=description>Berlin, Germany</div>
                         </div>
-                        <div class=image id=Lisbon>
+                        <div class=image id=Lisbon onclick=weather(2)>
                             <div class=description>Lisbon, Portugal</div>
                         </div>
                     </div>
                     <div class=images-column>
-                        <div class=image id=Melbourne>
+                        <div class=image id=Melbourne onclick=weather(3)>
                             <div class=description>Melbourne, Australia</div>
                         </div>
-                        <div class=image id=Wenns>
+                        <div class=image id=Wenns onclick=weather(4)>
                             <div class=description>Wenns, Austria</div>
                         </div>
-                        <div class=image id=Hochfügen>
+                        <div class=image id=Hochfügen onclick=weather(5)>
                             <div class=description>Hochfügen, Austria</div>
                         </div>
                     </div>
                     <div class=images-column>
-                        <div class=image id=Stubaier-Gletscher>
+                        <div class=image id=Stubai-Glacier onclick=weather(6)>
                             <div class=description>Stubai Glacier</div>
                         </div>
-                        <div class=image id=Moliets>
-                            <div class=description>Moliets, France</div>
+                        <div class=image id=Moliets onclick=weather(7)>
+                            <div class=description>Moliets-Plage, France</div>
                         </div>
-                        <div class=image id=Innsbruck>
+                        <div class=image id=Innsbruck onclick=weather(8)>
                             <div class=description>Innsbruck, Austria</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id=overlay>
+                <div id=weather-field>
+                    <div id=weather-text>
+                        <div id=weather-title></div>
+                        <div id=weather-information>
+                            <div id=description>
+                                <div class=info-text>Weather:</div>
+                                <div class=info-text>Temperature:</div>
+                                <div class=info-text>Maximum:</div>
+                                <div class=info-text>Minimum:</div>
+                                <div class=info-text>Wind:</div>
+                                <div class=info-text>Humidity:</div>
+                            </div>
+                            <div id=weather-values>
+                                <div class=info-text id=input-weather></div>
+                                <div class=info-text id=input-temperature></div>
+                                <div class=info-text id=input-maximum></div>
+                                <div class=info-text id=input-minimum></div>
+                                <div class=info-text id=input-wind></div>
+                                <div class=info-text id=input-humid></div>
+                            </div>
                         </div>
                     </div>
                 </div>
